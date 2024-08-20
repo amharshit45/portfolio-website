@@ -39,7 +39,7 @@ export const Navbar = () => {
                 <ul className='flex flex-col gap-y-8 text-[1.5rem]'>
                     <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#home">Home</a></li>
                     <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#about">About</a></li>
-                    <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#coding-stats">Coding Stats</a></li>
+{/*                     <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#coding-stats">Coding Stats</a></li> */}
                     <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#projects">Projects</a></li>
                     <li><a onClick={toggleMenu} className='font-medium hover:text-blue-400' href="#contact">Contact</a></li>
                 </ul>
